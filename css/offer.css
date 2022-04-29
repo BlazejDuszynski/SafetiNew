@@ -7,7 +7,7 @@
 .offer__list {
     display: grid;
     list-style: none;
-    padding-top: 25vh;
+    padding: 20vh 0;
     grid-template-columns: repeat(3, 1fr);
     gap: 100px 40px;
 }
