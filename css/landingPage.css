@@ -130,6 +130,7 @@
 .landingPage__containerItem:not(:last-child) {
     text-align: left;
     font-size: 3vw;
+    font-weight: 700 ;
 }
 
 .landingPage__containerItem--showMoreButton {
