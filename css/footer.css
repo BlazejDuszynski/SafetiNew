@@ -1,0 +1,31 @@
+.section__footer {
+    background-color: rgba(30, 31, 35, 255);
+    width: 100%;
+    height: auto;
+    color: rgb(211, 209, 209);
+    border-bottom: 1px solid rgb(49, 49, 49);
+    border-top: 1px solid rgb(49, 49, 49);
+}
+
+footer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 5vh;
+}
+
+.section__footer--header {
+    text-transform: uppercase;
+    font-weight: 900;
+    padding: 5px 0 30px 0;
+}
+
+.section__footer--text {
+    padding: 5px 0;
+}
+
+.footer__image {
+    max-height: 5vh;
+}
