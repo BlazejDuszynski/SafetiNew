@@ -45,7 +45,7 @@
     transition: .5s;
 }
 
-.whyUs__item--icon:hover {
+.whyUs__icon:hover {
     transform: scale(1.2);
 }
 
