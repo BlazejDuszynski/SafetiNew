@@ -20,15 +20,15 @@
     border-bottom: 2px solid black;
 }
 
-.whyUs__header--item {
+.whyUs__item {
     padding: 10px;
 }
 
-.whyUs__header--question {
+.whyUs__item--question {
     font-size: 3em;
 }
 
-.whyUs__header--answer {
+.whyUs__item--answer {
     font-size: 1.5em;
 }
 
@@ -37,7 +37,7 @@
     padding: 30px;
 }
 
-.whyUs__item--icon {
+.whyUs__icon {
     font-size: 64px;
     padding: 30px;
     background-color: rgba(247, 193, 164, 0.644);
@@ -49,7 +49,7 @@
     transform: scale(1.2);
 }
 
-.whyUs__item--text {
+.whyUs__text {
     font-size: 1.1em;
     padding-top: 20px;
     padding-bottom: 10px;
