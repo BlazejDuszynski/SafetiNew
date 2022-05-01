@@ -1,7 +1,7 @@
 .whyUs {
     height: auto;
     background-color: rgb(218, 213, 205);
-    padding-top: 10vh;
+    padding: 10vh 0;
 }
 
 .whyUs__container {

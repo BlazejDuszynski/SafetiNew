@@ -2,12 +2,19 @@
     width: 80%;
     height: auto;
     margin: 0 auto;
+    padding-top: 10vh;
+}
+
+.offer__header {
+    color: white;
+    font-size: 3em;
+    text-align: center;
 }
 
 .offer__list {
     display: grid;
     list-style: none;
-    padding: 20vh 0;
+    padding: 10vh 0 20vh 0;
     grid-template-columns: repeat(3, 1fr);
     gap: 100px 40px;
 }
