@@ -15,7 +15,7 @@
     display: grid;
     list-style: none;
     padding: 10vh 0 20vh 0;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 100px 40px;
 }
 
