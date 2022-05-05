@@ -17,3 +17,22 @@
     text-decoration: none;
     color: rgb(211, 209, 209);
 }
+
+@media (max-width: 950px) {
+    .bottom {
+        font-size: 0.8em;
+    }
+}
+
+@media (max-width:800px) {
+    .bottom {
+        font-size: 0.7em;
+    }
+}
+
+@media (max-width:600px) {
+    .bottom {
+        font-size: 0.6em;
+    }
+
+}

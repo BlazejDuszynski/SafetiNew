@@ -59,3 +59,22 @@
 .footer__item {
     display: inline-block;
 }
+
+.footer__item--fbAndLogo {
+    padding-top: 20px;
+}
+
+.footer__fb {
+    font-size: 3em;
+    padding-top: 20px;
+}
+
+.footer__link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.footer__link:active {
+    color: inherit;
+    text-decoration: none;
+}
