@@ -44,9 +44,6 @@
         font-size: 1.2em;
     }
 
-}
-
-@media (max-width:1200px) {
     .whyUs__item {
         grid-column-start: 1;
         grid-column-end: 4;
@@ -54,10 +51,16 @@
     }
 }
 
+@media (max-width:1200px) {
+    .whyUs__item {
+        font-size: 1em;
+    }
+}
+
 .whyUs__gridContainer {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
 }
 
