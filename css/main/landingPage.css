@@ -3,6 +3,11 @@
     cursor: pointer;
 }
 
+.landingPage {
+    height: 100vh;
+    overflow: hidden;
+}
+
 .landingPage__header {
     margin: 2vh auto;
     width: 80%;
@@ -94,6 +99,14 @@
 .landingPage__navLink {
     text-decoration: none;
     color: inherit;
+}
+
+.backgroundImage {
+    height: 90vh;
+    width: 100%;
+    object-fit: cover;
+    position: relative;
+    opacity: .5;
 }
 
 .landingPage__content {
