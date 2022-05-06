@@ -59,6 +59,7 @@
     position: relative;
     margin: 0 10px;
     cursor: pointer;
+    transition: all 300ms ease-in-out;
 }
 
 .landingPage__navItem:hover {
