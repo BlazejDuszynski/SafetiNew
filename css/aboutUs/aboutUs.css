@@ -1,0 +1,55 @@
+.aboutUs {
+    color: white;
+}
+
+.aboutUs__container {
+    width: 80%;
+    padding-top: 10vh;
+    margin: 0 auto;
+}
+
+.aboutUs__header {
+    text-align: center;
+    font-size: 3em;
+}
+
+.aboutUs__content {
+    padding-top: 10vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: auto;
+}
+
+.aboutUs__image {
+    object-fit: cover;
+    max-width: 100%;
+}
+
+.aboutUs__imageContainer {
+    max-width: 45%;
+}
+
+.aboutUs__text {
+    height: auto;
+    max-width: 45%;
+    letter-spacing: 1px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 100;
+}
+
+.aboutUs__buttonSection {
+    width: 100%;
+    margin: 10vh auto;
+}
+
+.aboutUs__button {
+    width: 50%;
+    margin: 0 auto;
+    background: none;
+    border: 4px solid rgb(226, 224, 219);
+    padding: 20px 30px;
+    color: rgb(226, 224, 219);
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.5rem;
+}
