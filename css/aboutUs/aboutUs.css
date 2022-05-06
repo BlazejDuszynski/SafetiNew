@@ -27,12 +27,12 @@
 }
 
 .aboutUs__imageContainer {
-    max-width: 45%;
+    width: 45%;
 }
 
 .aboutUs__text {
     height: auto;
-    max-width: 45%;
+    width: 45%;
     letter-spacing: 1px;
     font-family: 'Lato', sans-serif;
     font-weight: 100;
@@ -61,3 +61,30 @@
     background-color: rgb(223, 100, 34);
     border: 4px solid rgb(223, 100, 34);
 }
+
+@media (max-width: 1150px) {
+    .aboutUs__content {
+        flex-direction: column-reverse;
+        gap: 10vh;
+    }
+
+    .aboutUs__text {
+        width: 100%;
+        flex-basis: 1;
+    }
+
+    .aboutUs__imageContainer {
+        width: 100%;
+    }
+
+    .aboutUs__image {
+        object-fit: cover;
+        width: 100%;
+    }
+}
+
+@media (max-width: 1350px) {
+    .aboutUs__image {
+        height: 30vw;
+        object-fit: fill;
+    }
