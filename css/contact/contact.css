@@ -85,3 +85,7 @@
     font-size: 1em;
     margin-bottom: 3vh;
 }
+
+.contact__formItem--textarea {
+    resize: vertical;
+}
