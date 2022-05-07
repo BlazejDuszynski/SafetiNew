@@ -180,8 +180,9 @@
 
 .landingPage__containerItem--fourth {
     opacity: 0;
-    animation: rotationLandingPage__containerItem--fourth 1s ease-in-out forwards;
-    animation-delay: 2s;
+    animation: rotationLandingPage__containerItem--fourth 1s 2s ease-in-out forwards;
+    color: inherit;
+    text-decoration: none;
 }
 
 @keyframes rotationLandingPage__containerItem--fourth {
