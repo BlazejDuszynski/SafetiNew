@@ -1,7 +1,7 @@
 .phoneCall {
     position: fixed;
-    top: 80%;
-    left: 91%;
+    top: 86%;
+    left: 92%;
     z-index: 2;
     opacity: 0;
     animation: phoneCallShowUp 1s forwards 3s ease-in-out;
