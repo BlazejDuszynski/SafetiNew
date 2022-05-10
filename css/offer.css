@@ -23,11 +23,29 @@
     font-size: 2.5vw;
     position: absolute;
     left: 10%;
-    font-weight: 900;
+    font-weight: 100;
     top: 30%;
     color: azure;
     transition: all 500ms ease-in-out;
     padding-right: 5%;
+}
+
+@media (max-width: 1225px) {
+    .offer__description {
+        font-size: 3.8vw;
+    }
+}
+
+@media (max-width: 800px) {
+    .offer__description {
+        font-size: 5vw;
+    }
+}
+
+@media (max-width: 600px) {
+    .offer__description {
+        font-size: 7vw;
+    }
 }
 
 .offer__button {
