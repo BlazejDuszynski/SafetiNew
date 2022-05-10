@@ -26,7 +26,6 @@ window.addEventListener("load", () => {
     setTimeout(
         function open(){
             contactWindow.style.display = "block";
-            main.style.display = "none"
         },
         10000  
     )
