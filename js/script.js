@@ -22,4 +22,17 @@ const contactWindowAppear = () => {
     main.style.display = "none";
 }
 
-window.addEventListener("load", setTimeout(contactWindowAppear, 7000));
+window.addEventListener("load", () => {
+    setTimeout(
+        function open(){
+            contactWindow.style.display = "block";
+            main.style.display = "none"
+        },
+        10000  
+    )
+});
+
+closeButton.onclick = function() {
+    contactWindow.style.display = "none";
+    main.style.display = "inherit";
+}
