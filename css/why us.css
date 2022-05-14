@@ -23,13 +23,15 @@
 }
 
 .whyUs__question {
-    font-size: 3em;
+    font-size: 2em;
+    font-weight: 600;
     width: 80%;
     margin: 0 auto;
     padding-bottom: 30px;
 }
 
 .whyUs__answer {
+    font-weight: 400;
     font-size: 1.5em;
     width: 80%;
     margin: 0 auto;
@@ -76,7 +78,7 @@
 }
 
 .whyUs__icon {
-    font-size: 64px;
+    font-size: 40px;
     padding: 30px;
     background-color: rgba(247, 193, 164, 0.644);
     border-radius: 50%;
@@ -88,14 +90,14 @@
 }
 
 .whyUs__text {
-    font-size: 1.1em;
+    font-size: .8em;
     padding-top: 20px;
     padding-bottom: 10px;
     font-weight: 700;
 }
 
 .whyUs__item header {
-    font-size: 1.7em;
+    font-size: 1.3em;
     padding-top: 20px;
     text-transform: uppercase;
 }
