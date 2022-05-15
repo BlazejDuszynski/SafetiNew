@@ -33,9 +33,6 @@
 .aboutUs__text {
     height: auto;
     width: 45%;
-    letter-spacing: 1px;
-    font-family: 'Lato', sans-serif;
-    font-weight: 100;
 }
 
 .aboutUs__buttonSection {

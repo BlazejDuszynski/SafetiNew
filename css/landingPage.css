@@ -21,10 +21,10 @@
 
 .landingPage__burgerMenu {
     position: absolute;
-    display: none;
     flex-direction: column;
     width: 35px;
     height: 30px;
+    display: flex;
     right: 5%;
     justify-content: space-between;
 }
@@ -36,12 +36,18 @@
     border-radius: 10px;
 }
 
+.landingPage__nav {
+    display: flex;
+    align-items: center;
+}
+
 .landingPage__navList {
     list-style: none;
     color: rgb(226, 224, 219);
 }
 
 .landingPage__navItem {
+    font-size: .9em;
     display: inline-block;
     padding: 10px 20px;
     position: relative;
@@ -234,13 +240,13 @@
 
 @media (max-width: 950px) {
     .landingPage__navList {
-        display: none;
+        display: fixed;
     }
 
     .landingPage__burgerMenu {
         display: flex;
     }
-    
+
     .landingPage__containerItem {
         padding: 10px 0;
     }
