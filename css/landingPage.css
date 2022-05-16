@@ -17,6 +17,7 @@
     display: flex;
     align-items: center;
     color: rgb(226, 224, 219);
+    min-height: 70px;
 }
 
 .landingPage__burgerMenu {
@@ -24,9 +25,10 @@
     flex-direction: column;
     width: 35px;
     height: 30px;
-    display: flex;
+    display: none;
     right: 5%;
     justify-content: space-between;
+    cursor: pointer;
 }
 
 .landingPage__burgerMenuBar {
@@ -42,11 +44,11 @@
 }
 
 .landingPage__navList {
-    list-style: none;
     color: rgb(226, 224, 219);
 }
 
 .landingPage__navItem {
+    list-style: none;
     font-size: .9em;
     display: inline-block;
     padding: 10px 20px;
@@ -240,7 +242,60 @@
 
 @media (max-width: 950px) {
     .landingPage__navList {
-        display: fixed;
+        position: fixed;
+        left: -100%;
+        top: 70px;
+        flex-direction: column;
+        background-color: rgba(30, 31, 35, 255);
+        width: 100%;
+        transform: .3s;
+        z-index: 999;
+    }
+
+    .landingPage__navList.active {
+        left: 0;
+        transition: .3s;
+    }
+
+    .landingPage__navItem {
+        margin: 16px;
+        display: flex;
+    }
+
+    .landingPage__navLink {
+        margin: 0 auto;
+    }
+
+    .landingPage__navItem:hover {
+        background-color: rgb(223, 100, 34);
+        color: inherit;
+    }
+
+    .landingPage__navItem:not(:last-child):hover::before {
+        width: 0;
+    }
+
+    .landingPage__navItem:last-child {
+        border: none;
+    }
+
+    .landingPage__navItem:last-child:hover {
+        border: none;
+    }
+
+    .landingPage__burgerMenu.active .landingPage__burgerMenuBar:nth-child(2) {
+        opacity: 0;
+        transition: .3s;
+    }
+
+    .landingPage__burgerMenu.active .landingPage__burgerMenuBar:nth-child(1) {
+        transform: translateY(13.5px) rotate(45deg);
+        transition: .3s;
+    }
+
+    .landingPage__burgerMenu.active .landingPage__burgerMenuBar:nth-child(3) {
+        transform: translateY(-13.5px) rotate(-45deg);
+        transition: .3s;
     }
 
     .landingPage__burgerMenu {

@@ -1,3 +1,4 @@
+//fade in offer items start
 const offerFadeInItems = document.querySelectorAll(".offer__item");
  
 const observer = new IntersectionObserver(entries => {
@@ -12,6 +13,10 @@ const observer = new IntersectionObserver(entries => {
 offerFadeInItems.forEach(offerFadeInItem => {
     observer.observe(offerFadeInItem);
 });
+
+//fade in offer items end
+
+//contact form appear start
 
 const contactWindow = document.querySelector(".contactWindow");
 const main = document.querySelector(".main");
@@ -35,3 +40,14 @@ closeButton.onclick = function() {
     contactWindow.style.display = "none";
     main.style.display = "inherit";
 }
+//contact form appear end
+
+//burger menu activation start
+
+const hamburger = document.querySelector(".landingPage__burgerMenu");
+const navMenu = document.querySelector(".landingPage__navList");
+
+hamburger.addEventListener("click", () => {
+    hamburger.classList.toggle("active");
+    navMenu.classList.toggle("active");
+})
