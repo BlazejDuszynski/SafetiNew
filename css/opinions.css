@@ -16,21 +16,48 @@
 .opinions__list {
     display: flex;
     list-style: none;
-    justify-content: center;
+    justify-content: space-evenly;
     gap: 5%;
     padding-top: 20vh;
 }
 
 .opinions__item {
     width: 25vw;
-    height: 17vw;
+    height: auto;
     position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 0px 38px 9px rgba(64, 64, 64, 1);
+    -moz-box-shadow: 0px 0px 38px 9px rgba(64, 64, 64, 1);
+    box-shadow: 0px 0px 38px 9px rgba(64, 64, 64, 1);
+    justify-content: space-around;
 }
 
-.opinions__item::after {
-    content: '';
-    background-color: rgb(223, 100, 34);
-    position: absolute;
-    width: 5px;
-    height: 100%;
+.opinions__icon {
+    font-size: 3em;
+    padding-left: 5%;
+}
+
+.opinions__text {
+    font-size: .7em;
+    padding-left: 10%;
+    margin-top: -10%;
+    position: relative;
+    padding-bottom: 7%;
+}
+
+.opinions__footer {
+    margin-top: auto;
+    padding-left: 10%;
+    font-size: .7em;
+}
+
+.opinions__who {
+    font-weight: 700;
+}
+
+.opinions__where {
+    font-style: italic;
 }
