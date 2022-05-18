@@ -13,32 +13,32 @@
 }
 
 .offer__item--access {
-    background-image: url(/images/kontrola\ dostepu.PNG);
+    background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(/images/kontrola\ dostepu.PNG);
     background-size: 100% 100%;
 }
 
 .offer__item--alarm {
-    background-image: url(/images/alarm.PNG);
+    background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(/images/alarm.PNG);
     background-size: 100% 100%;
 }
 
 .offer__item--lightPipe {
-    background-image: url(/images/swiatlowod.PNG);
+    background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(/images/swiatlowod.PNG);
     background-size: 100% 100%;
 }
 
 .offer__item--smartDom {
-    background-image: url(/images/smart\ dom.PNG);
+    background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(/images/smart\ dom.PNG);
     background-size: 100% 100%;
 }
 
 .offer__item--CCTV {
-    background-image: url(/images/camera\ light\ background.PNG);
+    background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(/images/camera\ light\ background.PNG);
     background-size: 100% 100%;
 }
 
 .offer__item--elecrticInstalation {
-    background-image: url(/images/electric\ instalation2.jpg);
+    background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(/images/electric\ instalation2.jpg);
     background-size: 100% 100%;
 }
 
@@ -72,7 +72,7 @@
 }
 
 .offer__item:hover .offer__description {
-    color: rgb(43, 45, 50); 
+    color: rgb(43, 45, 50);
     /* background-color: rgba(240, 248, 255, 0.333); */
     /* display: none; */
     /* padding: 5px;
