@@ -65,14 +65,8 @@
 }
 
 .landingPage__navLink--contact {
-    border: 2px solid whitesmoke;
     transition: all .3s ease-in-out;
     padding: 10px 20px;
-}
-
-.landingPage__navLink--contact:hover {
-    border: 2px solid rgb(223, 100, 34);
-    background-color: rgb(223, 100, 34);
 }
 
 .landingPage__navLink::before {
