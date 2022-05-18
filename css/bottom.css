@@ -3,7 +3,7 @@
     height: auto;
     background-color: rgba(30, 31, 35, 255);
     color: rgb(211, 209, 209);
-    font-size: .8em;
+    font-size: .6em;
 }
 
 .bottom__container {
@@ -17,12 +17,6 @@
 .bottom__link {
     text-decoration: none;
     color: rgb(211, 209, 209);
-}
-
-@media (max-width: 950px) {
-    .bottom {
-        font-size: 0.8em;
-    }
 }
 
 @media (max-width:800px) {
