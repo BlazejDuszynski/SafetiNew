@@ -56,7 +56,19 @@
 }
 
 .landingPage__showMoreButton {
-    border: 2px solid whitesmoke;
+    background-color: rgb(217, 218, 231);
+    border-radius: 20px;
+    width: 20%;
+    margin: 0 auto;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: rgb(125, 131, 218);
+    transition: all .3s ease-in-out;
+}
+
+.landingPage__showMoreButton:hover {
+    background-color: rgb(189, 191, 226);
+    transform: scale(1.1);
 }
 
 /* .landingPage {
